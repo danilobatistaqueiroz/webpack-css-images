@@ -31,10 +31,10 @@ adicionar os módulos npm:
 **css-loader** para compactar todos os css num JSON no bundle:  
 `npm install --save-dev style-loader css-loader`  
 
-**file-loader**  
+Para trabalhar com imagens foi necessário usar o **file-loader**:   
 `npm install --save-dev file-loader`  
 
-é necessário adicionar um import para o css:  
+é necessário adicionar um import para o css, e foi importada uma imagem:  
 `import './style.css';`  
 `import Icon from './node.svg';`  
 
